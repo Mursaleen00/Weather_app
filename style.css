@@ -5,7 +5,7 @@
   margin: 0%;
   box-sizing: border-box;
   font-family: "Ysabeau SC", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 150vh;
+  height: 100vh;
   background-color: #dbcb98;
 }
 
@@ -58,19 +58,24 @@ input::placeholder {
 
 .text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .text_1 {
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
 .box{
-    width: 250px;
+    width: 200px;
     background-color: #dbcb98;
     border-radius: 50px;
     display: flex;
+}
+
+img{
+  width: 40px;
+  height: 40px;
 }

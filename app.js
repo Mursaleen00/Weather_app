@@ -19,7 +19,7 @@ function input_name() {
             document.getElementById('deg').innerHTML = `Degree <span class="text_1">${data.wind.deg}</span> <hr>`;
             document.getElementById('speed').innerHTML = `Speed <span class="text_1">${data.wind.speed}</span>km/h <i class="fa-solid fa-wind"></i><hr>`;
             document.getElementById('weather').innerHTML = `~~~:Weather:~~~`;
-            document.getElementById('main').innerHTML = `<span class="text_1"><img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">${data.weather[0].main} </span> <hr>`;
+            document.getElementById('main').innerHTML = `<span class="text_1">${data.weather[0].main} <img src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png"></span> <hr>`;
             document.getElementById('dis').innerHTML = `<span class="text_1">${data.weather[0].description}</span><hr>`;
             console.log(data);
         })
